@@ -12,6 +12,10 @@ aa:Button("Free VIP Pet",function(v)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69.6444778, 5.63310051, -289.340637, 0.548064411, -3.01830667e-08, 0.836436152, 1.65964964e-09, 1, 3.49978535e-08, -0.836436152, -1.77928872e-08, 0.548064411)
 end)
 
+aa:Button("Auto Clicker", function(v)
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/ROBLOX_AutoClicker"))()
+end)
+
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/lolokcat/mogus-hub/main/notificationlibrary"))()
 
 lib:Notification("Evil Hub Loaded", 5) -- (Text, Duration)
